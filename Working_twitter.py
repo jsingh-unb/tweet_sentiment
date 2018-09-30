@@ -9,10 +9,10 @@ from textblob import TextBlob
 class TwitterAccess(object):
 
     def __init__(self):
-        consumer_key = 'yUXu3PYujvNODhTvrWwdXk4zg'
-        consumer_secret = '2KTLRAAogkh5LYhjJanuVhiD8jbPyWIylSHLsX8A6t4iqSFAh4'
-        access_token = '836823421-hK4sjvcipf61hXSyD0TABZkdllBnDG8wYc7zjngi'
-        access_token_secret = 'LvODjnRAnQq7CgyaHuF4epVDAPyCPImGajcfi5M1tiFtR'
+        consumer_key = 'XYZ'
+        consumer_secret = 'XYZ'
+        access_token = 'XYZ'
+        access_token_secret = 'XYZ'
         try:
             auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
             auth.set_access_token(access_token, access_token_secret)
